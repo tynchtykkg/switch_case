@@ -6,7 +6,7 @@ void main() {
 
 String weekDays() {
   print("Enter any number from 1 to 7");
-  int day = int.parse(stdin.readLineSync()!);
+  int day = int.tryParse(stdin.readLineSync() ?? '') ?? 0;
   switch (day) {
     case 1:
       return "Monday";
