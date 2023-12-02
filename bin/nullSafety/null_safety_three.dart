@@ -5,6 +5,5 @@ void main() {
 
 void increaseValue(int value) {
   value++;
-
   print(value);
 }
